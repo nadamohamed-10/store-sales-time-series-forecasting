@@ -106,7 +106,7 @@ The raw dataset is **not included in this repository**. Download the dataset fro
 ```text
 store-sales-time-series-forecasting/
 │
-├── Sales.py
+├── app.py
 ├── README.md
 ├── requirements.txt
 ├── .gitignore
@@ -144,7 +144,7 @@ The datasets are then loaded into Pandas DataFrames.
 Example:
 
 ```bash
-python Sales.py --data-dir "./data"
+python app.py --data-dir "./data"
 ```
 
 ---
@@ -649,22 +649,6 @@ This project demonstrates practical experience in:
 * Command-line application design
 * Automated reporting
 * Reproducible ML workflows
-
----
-
-# 👩‍💻 Author
-
-**Nada Mohamed**
-
-Computer Science Student | AI & Machine Learning
-
-Interested in:
-
-* Artificial Intelligence
-* Machine Learning
-* Data Science
-* Data Engineering
-* Healthcare AI
 
 ---
 
